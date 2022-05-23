@@ -1,0 +1,37 @@
+.container.body {
+    display: grid;
+    height: 100vh;
+.background-color: coral;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+/* First item starts from column 1 and expand 3 columns*/
+/* and from row 1 and expand 3 columns*/
+.container .head {
+    grid-column: 1/ span 3;
+    grid-row: 1/ span 3;
+    color: aquamarine;
+}
+/* Second item starts from column 4 and expand 3 columns*/
+/* and from row 4 and expand 3 columns*/
+.container .nav {
+    grid-column: 4/ span 3;
+    grid-row: 4/ span 3;
+    color: aqua;
+}
+
+/* First item starts from column 7 and expand 3 columns*/
+/* and from row 7 and expand 3 columns*/
+.container .main {
+    grid-column: 7/ span 3;
+    grid-row: 7/ span 3;
+}
+
+/* First item starts from column 10 and expand 3 columns*/
+/* and from row 10 and expand 3 columns*/
+.container .fo {
+    grid-column: 10/ span 3;
+    grid-row: 10/ span 3;
+    color: cornflowerblue;
+}
